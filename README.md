@@ -106,3 +106,70 @@ encoded_jwt = jwt_instance.encode(payload, signing_key, alg='RS256')
 
 print(f"JWT:  {encoded_jwt}")
 67a7811ec75b6b513a58c7b93f99cef8ab639a02
+     {
+    "code": "0",
+    "msg": "",
+    "data": [
+        {
+            "collectionName": "BoredApeYachtClub",
+            "tokenContractAddress": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+            "totalSupply": "10000",
+            "holder": "5537",
+            "avgPrice": "39335.9037",
+            "transactionNumber": "156",
+            "activeUser": "67",
+            "transactionVolume": "1927459.2813000001",
+            "transactionVolumeUsd": "2992611829.332006",
+            "floorPrice": "24.38995001",
+            "lastPrice": "26.9",
+            "collectionLogoUrl": "https://static.coinall.ltd/cdn/nft/files/collection/205-logo.webp"
+        }
+    ]
+}
+1927459.28132992611829https://static.coinall.ltd/cdn/nft/files/collection/205-logo.webp{
+    "code": "0",
+    "msg": "",
+    "data": [
+        {
+            "totalMarketCap": "25854298568.561043",
+            "totalHolder": "14315586",
+            "dailyTradingVolume": "8816152.74027341",
+            "dailyTransaction": "30656"
+        }
+    ]
+}
+25854298568GET /api/v5/explorer/nft/nft-stats-overviewTap on a clip to paste it in the text box.{
+    "code": "0",
+    "msg": "",
+    "data": [
+        {
+            "chainFullName": "Ethereum",
+            "chainShortName": "ETH"
+        },
+        {
+            "chainFullName": "Polygon",
+            "chainShortName": "POLYGON"
+        },
+        {
+            "chainFullName": "Optimism",
+            "chainShortName": "OPTIMISM"
+        },
+        {
+            "chainFullName": "OKT Chain",
+            "chainShortName": "OKTC"
+        },
+        {
+            "chainFullName": "Avalanche-C",
+            "chainShortName": "AVAXC"
+        },
+        {
+            "chainFullName": "ARBITRUM",
+            "chainShortName": "ARBITRUM"
+        },
+        {
+            "chainFullName": "BNB Chain",
+            "chainShortName": "BSC"
+        }
+    ]
+}
+GET /api/v5/explorer/nft/nft-stats-overview8816152.74022585429856814315586
